@@ -4,9 +4,10 @@ namespace Basket
 {
     class Arbitro
     {
-        int edad = 40;
-        string nombre = "Fabian";
-        string apellido = "Perez";
+        int edad;
+		Jugador [] jugadoresQueHaAmonestado;
+        string nombre;
+        string apellido;
         bool Corriendo;
         void arbitro()
         {

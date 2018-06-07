@@ -2,19 +2,18 @@ using System;
 
 namespace Basket
 {
-    class Jugador
+    public class Jugador
     {
-        int estatura = 2;
-        int edad = 27;
-        string nombre = "Joel";
-        string apellido = "Smith";
-        string equipo = "Cavaliers";
-        bool Calentando;
-        void jugador()
+        int estatura;
+        Equipos [] equiposEnLosQueHaJugado;
+        int edad;
+        string nacionalidad;     
+        string nombre;
+        string apellido;
+        string equipo;
+        bool calentando; 
         {
-            Calentando = true;
+            void estaCalentando ();
         }
-
-
     }
 }

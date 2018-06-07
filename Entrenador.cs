@@ -4,16 +4,15 @@ namespace Basket
 {
     class Entrenador
     {
-        int añosDeExperiencia = 8;
-        int edad = 27;
-        string nombre = "Erick";
-        string apellido = "Jhonson";
+         int añosDeExperiencia;
+        int edad;
+        Equipos [] equiposQueHaDirigido;
+        string nombre;
+        string apellido;
         bool Organizando;
         void entrenador()
         {
             Organizando = true;
         }
-
-
     }
 }
