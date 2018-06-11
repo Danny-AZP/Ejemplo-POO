@@ -1,11 +1,22 @@
+
 using System;
 
 namespace Basket
 {
-    class Estado
+    public class Estado
     {
         string nombre;
-        string gobernador;
+        Estado(string nombre)
+        {
+            this.nombre=nombre
+            {
+                var estado = newEstado("Texas");
+                console.writeLine(estado.nombre)
+            }
+        }
+        public class Equipo:Estado
+        {
         Equipos [] equiposDelEstado;
+        }
     }
 }

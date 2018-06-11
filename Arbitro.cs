@@ -2,18 +2,38 @@ using System;
 
 namespace Basket
 {
-    class Arbitro
+    public class Arbitro
     {
         int edad;
-		Jugador [] jugadoresQueHaAmonestado;
-        string nombre;
-        string apellido;
-        bool Corriendo;
-        void arbitro()
+        public class Jugador:Arbitro
         {
-            Corriendo = true;
+		Jugador [] jugadoresQueHaAmonestado;
         }
-
-
+        string nombre;
+        Arbitro(string nombre)
+        {
+            this.nombre=nombre
+            {
+                var arbitro = newArbitro ("Paul");
+            }
+        }
+        string apellido;
+        Arbitro (string apellido)
+        {
+            this.apellido=apellido
+            {
+                var arbitro = newArbitro ("Jhonson");
+                console.WriteLine(arbitro.nombre + arbitro.apellido)
+            }
+        }
+        bool Corriendo;
+        {
+            public void Controlando()
+            {
+                var arbitro = newControlando;
+                arbitro.Controlando;
+            }
+           
+        }
     }
 }
